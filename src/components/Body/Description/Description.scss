@@ -1,0 +1,21 @@
+.description {
+    margin-bottom: 70px;
+    max-width: 1270px;
+    margin: 0 auto;
+    margin-top: 70px;
+  .description-wrap {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  .dsc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    h3 {
+      margin-bottom: 30px;
+    }
+  }
+}

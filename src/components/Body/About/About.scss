@@ -1,0 +1,33 @@
+.about {
+   margin-top: 50px;
+    position: relative;
+    height: 180px;
+  .about-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+   
+    .btn-color {
+      background: rgb(1, 198, 220);
+      border: 1px solid rgb(1, 198, 220);
+      border-radius: 20px;
+      color: #fff;
+      text-align: center;
+      width: 150px;
+      height: 40px;
+      margin-top: 25px;
+      
+      font-size: 15px;
+    }
+    img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 190px;
+       
+    }
+  }
+}

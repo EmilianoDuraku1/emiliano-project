@@ -1,0 +1,230 @@
+.search {
+  // margin: 0px auto;
+
+  height: 450px;
+  background-image: url("../../../assets/Blauverlauf\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+  padding-top: 70px;
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 450px;
+    // padding-top: 50px;
+    overflow: hidden;
+
+    .search-wrap {
+      // display: flex;
+      // justify-content: center;
+      // flex-direction: column;
+      // display: block;
+      // align-items: center;
+      // text-align: center;
+      // width: 100%;
+      // margin: 0 auto;
+      // padding-top: 50px;
+      // margin: 0 50px;
+      // height: 100%;
+      // width: 1028px;
+      // margin: 0 auto;
+      transition: 0.3 ease all;
+      .search-title {
+        text-align: left;
+
+        width: 350px;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .color-buttons {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin-bottom: 50px;
+      position: relative;
+
+      .inputs-content {
+        display: flex;
+        max-width: 950px;
+        max-height: 500px;
+      }
+      .search-icon {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        fill: rgb(17, 17, 150);
+        width: 20px;
+        z-index: 9;
+      }
+      .location-icon {
+        position: absolute;
+        left: 34.5%;
+        top: 15px;
+        fill: rgb(17, 17, 150);
+        color: rgb(17, 17, 150);
+        width: 20px;
+        font-size: 20px;
+        z-index: 9;
+      }
+
+      .icon-btn {
+        border: none;
+        outline: none;
+        color: rgb(17, 17, 150);
+        padding: 20px 170px 20px 40px;
+        // padding-left: 50px;
+        width: 50%;
+        font-size: 13px;
+        font-weight: 550;
+        // height: 55px;
+      }
+      .icon-btn:not(:first-of-type) {
+        margin-left: 50px;
+      }
+
+      .icon-btn::placeholder {
+        color: rgb(17, 17, 150);
+      }
+
+      .btn-color {
+        background: rgb(0, 110, 255);
+        border: 1px solid rgb(0, 110, 255);
+        border-radius: 40px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 550;
+        margin-left: 40px;
+        padding: 10px 40px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 5px;
+      }
+    }
+    .subtitle {
+      color: #fff;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      height: 40px;
+    }
+    .trasparent-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      > div {
+        width: 50%;
+        display: flex;
+      }
+
+      .btn-primary {
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 14px;
+        width: auto;
+        height: 40px;
+        text-transform: uppercase;
+        margin: 0 auto;
+      }
+    }
+  }
+  // .container::before {
+  //   transform: skewY(358deg);
+  //   background: #fff;
+  //   bottom: -20px;
+  //   content: "";
+  //   display: block;
+  //   height: 35px;
+  //   left: 0;
+  //   position: absolute;
+  //   right: 0;
+  //   z-index: 10;
+  //   width: 100%;
+  // }
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 1028px;
+  }
+  .search {
+    width: 100%;
+    .container {
+      width: 1028px !important;
+      .search-title {
+        margin-top: 0 !important;
+      }
+      .location-icon {
+        left: 43% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .search {
+    // width: 100%;
+
+    .container {
+      .search-title {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        text-align: center;
+      }
+      .color-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        .location-icon {
+          left: 54% !important;
+        }
+        .search-icon {
+          left: 115px;
+        }
+        .btn-color {
+          margin-top: 40px;
+          text-align: center;
+        }
+      }
+      .subtitle {
+        margin-bottom: 0;
+      }
+      .trasparent-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 0;
+      }
+      .btn-top,
+      .btn-botom {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .search-title {
+    margin: 0 !important;
+  }
+  .inputs-content {
+    flex-direction: column;
+    height: 40px !important;
+
+    .icon-btn {
+      width: 30% !important;
+      margin: 0px !important;
+      margin-bottom: 15px !important;
+    }
+  }
+  .btn-color {
+    margin-top: 100px !important;
+   
+  }
+}
