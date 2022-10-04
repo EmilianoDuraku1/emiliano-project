@@ -3,7 +3,7 @@ export const StandardData = [
     id: 0,
 
     headline:
-      "Lorem ipsum odorfds amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis variusdignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat.",
+      "Lorem ipsufm odorfds amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis variusdignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat.",
     name: "Max Musterman",
     lName: "Aenan vuluputate",
   },
